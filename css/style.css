@@ -1,0 +1,259 @@
+@font-face {
+    font-family: "Abril Fatface";
+    src: url("../fonts/AbrilFatface-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Dancing Script";
+    src: url("../fonts/DancingScript-Regular.ttf")
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("../fonts/Roboto-Regular.ttf")
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.main_page {
+    background-color: rgb(250, 240, 207);
+}
+
+.index {
+    margin-left: 25px;
+}
+
+.logo {
+    margin-top: 0px;
+    margin-right: 30px;
+}
+
+.navigation_list {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    text-decoration: none;
+    margin-left: 220px;
+    margin-top: 35px;
+}
+
+.navigation_link {
+    font-family: Abril Fatface;
+    font-size: 22px;
+    text-decoration: none;
+    color: black;
+    padding-right: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.active_page {
+    text-decoration: underline;
+}
+
+.company_name {
+    font-family: Dancing Script;
+    text-transform: none;
+    font-size: 32px;
+    font-weight: bold;
+    text-decoration: underline;
+    line-height: 20px;
+}
+
+.navigation_picture {
+    padding-left: 20px;
+}
+
+.navigation_pictures {
+    margin-right: 90px;
+    margin-top: 30px;
+    padding-right: 40px;
+}
+
+.catalog_nav_pics {
+    margin-top: 65px;
+}
+
+.slogan_block {
+    width: 160px;
+    text-align: center;
+    position: relative;
+    left: 43%;
+    margin-top: 160px;
+}
+
+.slogan {
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.slogan_first_part {
+    font-family: Abril Fatface;
+    font-size: 48px;
+    margin: 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    position: relative;
+    right: 55%;
+    line-height: 0px;
+}
+
+.slogan_second_part {
+    font-family: Dancing Script;
+    font-size: 48px;
+    text-transform: none;
+    margin: 0;
+    line-height: 50px;
+    letter-spacing: 2px;
+}
+
+.slogan_third_part {
+    font-family: Abril Fatface;
+    font-size: 48px;
+    margin: 0;
+    letter-spacing: 2px;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+
+.slogan_element {
+    width: 30px;
+    position: relative;
+    right: 50%;
+    transform: rotate(45deg);
+    margin-bottom: 10px;
+}
+
+.slogan_block2 {
+    margin-top: 200px;
+    position: relative;
+    margin-left: 1200px;
+    width: 180px;
+}
+
+.slogan_block2_price {
+    font-family: Abril Fatface;
+    font-size: 48px;
+    letter-spacing: 2px;
+    margin: 0;
+}
+
+.slogan_block2_name {
+    font-family: Abril Fatface;
+    font-size: 24px;
+    letter-spacing: 1px;
+    margin: 0;
+    padding-top: 10px;
+}
+
+.slogan_block2_description {
+    font-family: Roboto;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.slogan_block2_button {
+    font-family: Abril Fatface;
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-decoration: underline;
+    background-color: white;
+    color: black;
+    border: none;
+}
+
+.catalog {
+    background-color: rgb(238, 236, 229);
+    border-radius: 65px;
+    width: 660px;
+    height: 65px;
+    padding-top: 40px;
+}
+
+.catalog_options {
+    display: flex;
+    list-style: none;
+    margin-left: 450px;
+    margin-top: 35px;
+}
+
+.catalog_option {
+    background-color: white;
+    border: none;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding-left: 40px;
+    text-shadow: 10px 10px 4px grey;
+    font-family: Abril Fatface;
+    font-size: 18px;
+}
+
+.headphones_catalog {
+    display: flex;
+    justify-content: space-between;
+    width: 1437px;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+.blue_headphones_pic {
+    padding-left: 40px;   
+}
+
+.headphones_name {
+    font-family: Abril Fatface;
+    font-size: 20px;
+    margin: 0;
+}
+
+.headphones {
+    text-align: center;
+}
+
+.catalog_buy_button {
+    color: black;
+    font-family: Abril Fatface;
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    width: 140px;
+    height: 60px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.footer {
+    margin-top: 121px;
+    background-color: #CDC5B8;
+    height: 192px;
+    display: flex;
+}
+
+.footer_nav_list {
+    list-style: none;
+    font-family: Abril Fatface;
+    padding-top: 35px;
+}
+
+.footer_nav_unit {
+    color: black;
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 50px;
+    letter-spacing: 1px;
+}
+
+.contacts_info_list {
+    padding-left: 400px;
+}
+
+.footer_logo {
+    padding-left: 350px;
+}
